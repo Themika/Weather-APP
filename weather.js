@@ -3,7 +3,7 @@ import axios from "axios"
 export function getWeather(lat, lon, timezone) {
   return axios
     .get(
-      "",
+      "",//Put your own Open Weather API Key :]
       {
         params: {
           latitude: lat,
